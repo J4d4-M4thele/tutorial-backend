@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081https://tutorial-backend.onrender.com"
+  origin: "https://tutorial-app-c96402.netlify.app"
 };
 
 app.use(cors(corsOptions));
